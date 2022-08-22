@@ -1,5 +1,9 @@
 #!/bin/bash
 
+#Bypass password prompt from sudo.
+ROOTPASSWORD="your root/sudo password"
+echo $ROOTPASSWORD | sudo -S false
+
 #Number of images in "Background" folder.
 NPICTURES=3
 
@@ -11,6 +15,6 @@ DIR="$( cd "$( dirname "$0" )" && pwd )"
 IMGNAME="Background-$(((RANDOM % $NPICTURES)+1)).jpg"
 
 #Assign the chosen image to be displayed
-cp $DIR/Background/$IMGNAME $DIR/Background.jpg
+sudo cp $DIR/Background/$IMGNAME $DIR/Background.jpg
 
 
