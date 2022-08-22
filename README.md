@@ -10,7 +10,7 @@ Original repository: https://github.com/MarianArlt/sddm-sugar-dark
 
 ### Installing the theme
 
-[Download the tar archive](https://www.opendesktop.org/p/1272122) and extract the contents to the theme directory of SDDM *(change the path for the downloaded file if necessary)*:
+[Download the tar archive](https://github.com/JiayuanWen/sddm-sugar-steamOS/releases) and extract the contents to the theme directory of SDDM *(change the path for the downloaded file if necessary)*:
 ```
 $ sudo tar -xzvf ~/Downloads/sugar-steamOS.tar.gz -C /usr/share/sddm/themes
 ```
