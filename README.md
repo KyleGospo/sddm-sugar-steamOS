@@ -1,6 +1,8 @@
 ![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_default.png "The default interface of the SteamOS Sugar theme for SDDM")
 
 # SteamOS Sugar theme for SDDM
+A modified version of MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM). Created for Valve's SteamOS. \
+Original repository: https://github.com/MarianArlt/sddm-sugar-dark
 
 ### Dependencies
 
@@ -10,13 +12,38 @@
 
 [Download the tar archive](https://www.opendesktop.org/p/1272122) and extract the contents to the theme directory of SDDM *(change the path for the downloaded file if necessary)*:
 ```
-$ sudo tar -xzvf ~/Downloads/sugar-dark.tar.gz -C /usr/share/sddm/themes
+$ sudo tar -xzvf ~/Downloads/sugar-steamOS.tar.gz -C /usr/share/sddm/themes
 ```
-This will extract all the files to a folder called "sugar-dark" inside of the themes directory of SDDM.  
+This will extract all the files to a folder called "sugar-steamOS" inside of the themes directory of SDDM.  
 
-After that you will have to point SDDM to the new theme by editing its config file, preferrably at `/etc/sddm.conf.d/sddm.conf` *(create if necessary)*. You can take the default config file of SDDM as a reference: `/usr/lib/sddm/sddm.conf.d/default.conf`.  
+After that, you will have to point SDDM to the new theme by editing its config file with your favorite editor
+```
+sudo <editor> /etc/sddm.conf.d/sddm.conf
+```
+If sddm.conf doesn't exist, create one.
 
-In the `[Theme]` section simply add the themes name: `Current=sugar-steamOS`. Also see the [Arch wiki on SDDM](https://wiki.archlinux.org/index.php/SDDM).
+Find following lines (Add if file is empty).
+```
+[Theme]
+Current=
+```
+Set `Current=` to `Current=sugar-steamOS`.
+
+You can take a look at the default config file of SDDM for reference: `/usr/lib/sddm/sddm.conf.d/default.conf`.  
+
+### (Optional) Enable background changing
+
+Background can be made to change after each boot with the backgroundChanger.sh script in the theme folder. To enable this feature, first make sure the script is executable.
+```
+$ sudo chmod +x /usr/share/sddm/themes/sugar-steamOS/backgroundChanger.sh
+```
+Now, edit the script with your favorite editor (vim/nano/kwrite/gedit/etc...)
+```
+$ sudo <editor> /usr/share/sddm/themes/sugar-steamOS/backgroundChanger.sh
+```
+Find the variable `ROOTPASSWORD` and set it to your sudo/root password. Save the file afterward.
+
+Make backgroundChanger.sh autostart on boot or after login. Depending on your DE, you might have an app or feature that manages startup applications (Ex. KDE Plasma has Autostart, Cinnamon has Startup Application, XFCE has Session and Startup), add a new startup app with path to `usr/share/sddm/themes/sugar-steamOS/backgroundChanger.sh`. If you don't have such, you can follow [this tutorial](https://www.baeldung.com/linux/run-script-on-startup) on how to set up a startup script/application.
 
 ### Legal Notice
 
@@ -28,11 +55,11 @@ Sugar Dark is distributed in the hope that it will be useful, but WITHOUT ANY WA
 
 You should have received a copy of the GNU General Public License along with Sugar Dark. If not, see <https://www.gnu.org/licenses/>.
 
-[Mockup psd created by Qeaql-studio - Freepik.com](https://www.freepik.com/free-photos-vectors/mockup)
-
 ### Motivate a developer
 
 From Marian Arlt: \
 In the past years I have spent quite some hours on open source projects. If you are the type of person who digs attention to detail, know how much work is involved in it and/or simply likes to support makers with a coffee or a beer I would greatly appreciate your donation on my [PayPayl](https://www.paypal.me/marianarlt) account.  
 Alternatively downloading my themes directly from opendesktop or with the kde sddm system settings module will at least help me a little to be able to attend your issues and requests.  
 Please consider helping developers you think are worth a penny or two, literally.
+
+
