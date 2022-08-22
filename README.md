@@ -62,4 +62,8 @@ In the past years I have spent quite some hours on open source projects. If you 
 Alternatively downloading my themes directly from opendesktop or with the kde sddm system settings module will at least help me a little to be able to attend your issues and requests.  
 Please consider helping developers you think are worth a penny or two, literally.
 
-
+## More Screenshots
+![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_SteamDeck.png "The interface of the SteamOS Sugar theme showing Steam Deck for SDDM")
+<br>
+<br>
+![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_ValveIndex.png "The interface of the SteamOS Sugar theme showing Valve Index for SDDM")
