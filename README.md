@@ -1,4 +1,10 @@
 ![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_default.png "The default interface of the SteamOS Sugar theme for SDDM")
+<br>
+<br>
+![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_SteamDeck.png "The interface of the SteamOS Sugar theme showing Steam Deck for SDDM")
+<br>
+<br>
+![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_ValveIndex.png "The interface of the SteamOS Sugar theme showing Valve Index for SDDM")
 
 # SteamOS Sugar theme for SDDM
 A modified version of MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM). Created for Valve's SteamOS. \
@@ -61,9 +67,3 @@ From Marian Arlt: \
 In the past years I have spent quite some hours on open source projects. If you are the type of person who digs attention to detail, know how much work is involved in it and/or simply likes to support makers with a coffee or a beer I would greatly appreciate your donation on my [PayPayl](https://www.paypal.me/marianarlt) account.  
 Alternatively downloading my themes directly from opendesktop or with the kde sddm system settings module will at least help me a little to be able to attend your issues and requests.  
 Please consider helping developers you think are worth a penny or two, literally.
-
-## More Screenshots
-![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_SteamDeck.png "The interface of the SteamOS Sugar theme showing Steam Deck for SDDM")
-<br>
-<br>
-![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_ValveIndex.png "The interface of the SteamOS Sugar theme showing Valve Index for SDDM")
