@@ -1,6 +1,6 @@
-![Screenshot of the interface of the Sugar Dark theme for SDDM](Previews/Mockup.jpg "The default interface of the Sugar Dark theme for SDDM")
+![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Mockup.jpg "The default interface of the Sugar Dark theme for SDDM")
 
-# Sugar Dark login theme for SDDM
+# SteamOS Sugar theme for SDDM
 
 Sugar is extremely customizable and so sweet it will probably cause you diabetes just from looking at it. Sweeten the login experience for your users, your family and yourself. Sugar is cross platform and all about user experience and functionality.
 With those principles in mind Sugar was written completely from scratch making it clean and simple not only by looks but by design too.  
