@@ -1,4 +1,4 @@
-![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_default.png "The default interface of the SteamOS Sugar theme for SDDM")
+![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_default_revi1.png "The default interface of the SteamOS Sugar theme for SDDM")
 <br>
 <br>
 ![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_SteamDeck.png "The interface of the SteamOS Sugar theme showing Steam Deck for SDDM")
