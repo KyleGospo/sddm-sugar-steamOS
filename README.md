@@ -9,6 +9,15 @@
 # SteamOS Sugar theme for SDDM
 A modified version of MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM). Created for Valve's SteamOS. \
 Original repository: https://github.com/MarianArlt/sddm-sugar-dark
+<br>
+<br>
+
+## Table of Contents
+* [Dependencies](https://github.com/JiayuanWen/sddm-sugar-steamOS#dependencies)
+* [Installing the theme](https://github.com/JiayuanWen/sddm-sugar-steamOS#installing-the-theme)
+* [Legal Notice](https://github.com/JiayuanWen/sddm-sugar-steamOS#legal-notice)
+* [Motivate a developer](https://github.com/JiayuanWen/sddm-sugar-steamOS#motivate-a-developer)
+<br>
 
 ### Dependencies
 
