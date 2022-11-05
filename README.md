@@ -1,10 +1,4 @@
 ![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_default_revi1.png "The default interface of the SteamOS Sugar theme for SDDM")
-<br>
-<br>
-![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_SteamDeck.png "The interface of the SteamOS Sugar theme showing Steam Deck for SDDM")
-<br>
-<br>
-![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_ValveIndex.png "The interface of the SteamOS Sugar theme showing Valve Index for SDDM")
 
 # SteamOS Sugar theme for SDDM
 A modified version of MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM). Created for Valve's SteamOS. \
@@ -46,6 +40,7 @@ Set `Current=` to `Current=sugar-steamOS`.
 
 You can take a look at the default config file of SDDM for reference: `/usr/lib/sddm/sddm.conf.d/default.conf`.  
 
+<!--
 ### (Optional) Enable background changing
 
 Background can be made to change after each boot with the backgroundChanger.sh script in the theme folder. To enable this feature, first make sure the script is executable.
@@ -59,6 +54,7 @@ $ sudo <editor> /usr/share/sddm/themes/sugar-steamOS/backgroundChanger.sh
 Find the variable `ROOTPASSWORD` and set it to your sudo/root password. Save the file afterward.
 
 Make backgroundChanger.sh autostart on boot or after login. Depending on your DE, you might have an app or feature that manages startup applications (Ex. KDE Plasma has Autostart, Cinnamon has Startup Application, XFCE has Session and Startup), add a new startup app with path to `usr/share/sddm/themes/sugar-steamOS/backgroundChanger.sh`. If you don't have such, you can follow [this tutorial](https://www.baeldung.com/linux/run-script-on-startup) on how to set up a startup script/application.
+-->
 
 ### Legal Notice
 
