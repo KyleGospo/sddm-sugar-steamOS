@@ -19,9 +19,9 @@ Original repository: https://github.com/MarianArlt/sddm-sugar-dark
 
 ### Installing the theme
 
-[Download the tar archive](https://github.com/JiayuanWen/sddm-sugar-steamOS/releases) and extract the contents to the theme directory of SDDM *(change the path for the downloaded file if necessary)*:
+[Download the tar archive](https://github.com/JiayuanWen/sddm-sugar-steamOS/releases) then extract the contents to the theme directory of SDDM:
 ```
-$ sudo tar -xzvf ~/Downloads/sugar-steamOS.tar.gz -C /usr/share/sddm/themes
+$ sudo tar -xzvf /Path/To/Your/sugar-steamOS.tar.gz -C /usr/share/sddm/themes
 ```
 This will extract all the files to a folder called "sugar-steamOS" inside of the themes directory of SDDM.  
 
