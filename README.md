@@ -1,7 +1,7 @@
-![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_default_revi1.png "The default interface of the SteamOS Sugar theme for SDDM")
+![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_default_revi1.png? "The default interface of the SteamOS Sugar theme for SDDM")
 
 # SteamOS Sugar theme for SDDM
-A modified version of MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM). Created for Valve's SteamOS. \
+A modified version of MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM). Based on the aesthetic of Valve's SteamOS. Created for [HoloISO](https://github.com/theVakhovskeIsTaken/holoiso). \
 Original repository: https://github.com/MarianArlt/sddm-sugar-dark
 <br>
 <br>
@@ -19,9 +19,9 @@ Original repository: https://github.com/MarianArlt/sddm-sugar-dark
 
 ### Installing the theme
 
-[Download the tar archive](https://github.com/JiayuanWen/sddm-sugar-steamOS/releases) and extract the contents to the theme directory of SDDM *(change the path for the downloaded file if necessary)*:
+[Download the tar archive](https://github.com/JiayuanWen/sddm-sugar-steamOS/releases) then extract the contents to the theme directory of SDDM:
 ```
-$ sudo tar -xzvf ~/Downloads/sugar-steamOS.tar.gz -C /usr/share/sddm/themes
+$ sudo tar -xzvf /Path/To/Your/sugar-steamOS.tar.gz -C /usr/share/sddm/themes
 ```
 This will extract all the files to a folder called "sugar-steamOS" inside of the themes directory of SDDM.  
 
@@ -65,6 +65,8 @@ Sugar Dark is free software: you can redistribute it and/or modify it under the 
 Sugar Dark is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.  
 
 You should have received a copy of the GNU General Public License along with Sugar Dark. If not, see <https://www.gnu.org/licenses/>.
+
+This project is not affiliated with Valve Corporation. All imagery associated with Valve and Steam belong to [Valve, LLC](https://www.valvesoftware.com/en/). 
 
 ### Motivate a developer
 
