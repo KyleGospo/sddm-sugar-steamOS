@@ -1,7 +1,7 @@
 ![Screenshot of the interface of the SteamOS Sugar theme for SDDM](Previews/Preview_default_revi1.png? "The default interface of the SteamOS Sugar theme for SDDM")
 
 # SteamOS Sugar theme for SDDM
-A modified version of MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM). Created for Valve's SteamOS. \
+A modified version of MarianArlt's Sugar Dark theme for Simple Desktop Display Manager (SDDM). Based on the aesthetic of Valve's SteamOS. Created for [HoloISO](https://github.com/theVakhovskeIsTaken/holoiso). \
 Original repository: https://github.com/MarianArlt/sddm-sugar-dark
 <br>
 <br>
