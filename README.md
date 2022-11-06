@@ -66,6 +66,8 @@ Sugar Dark is distributed in the hope that it will be useful, but WITHOUT ANY WA
 
 You should have received a copy of the GNU General Public License along with Sugar Dark. If not, see <https://www.gnu.org/licenses/>.
 
+This project is not affiliated with Valve Corporation. All imagery associated with Valve and Steam belong to [Valve, LLC](https://www.valvesoftware.com/en/). 
+
 ### Motivate a developer
 
 From Marian Arlt: \
