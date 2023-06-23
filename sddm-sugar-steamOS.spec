@@ -6,6 +6,7 @@ License:        GPLv3
 URL:            https://github.com/KyleGospo/sddm-sugar-steamOS
 
 Source0:        %{url}/archive/refs/heads/master.zip
+BuildArch:      noarch
 
 Requires:       sddm
 Requires:       qt5-qtquickcontrols2
