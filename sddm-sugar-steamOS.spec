@@ -25,6 +25,8 @@ rm %{name}.spec
 %install
 mkdir -p %{buildroot}%{_datadir}/sddm/themes/sugar-steamOS
 cp -rv * %{buildroot}%{_datadir}/sddm/themes/sugar-steamOS/
+rm -rf %{buildroot}%{_datadir}/sddm/themes/sugar-steamOS/Previews
+rm -rf %{buildroot}%{_datadir}/sddm/themes/sugar-steamOS/ImageWIP
 
 %files
 %license COPYING
